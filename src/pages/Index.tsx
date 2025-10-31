@@ -130,7 +130,7 @@ const Index = () => {
           </p>
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-primary via-secondary to-accent hover:opacity-90 transition-opacity text-white font-semibold px-8 py-6 text-lg"
+            className="bg-primary hover:bg-primary/90 transition-all text-white font-semibold px-8 py-6 text-lg"
             onClick={() => scrollToSection('contact')}
           >
             Заказать съёмку
@@ -288,7 +288,7 @@ const Index = () => {
 
               <Button 
                 type="submit" 
-                className="w-full bg-gradient-to-r from-primary via-secondary to-accent hover:opacity-90 transition-opacity text-white font-semibold py-6"
+                className="w-full bg-primary hover:bg-primary/90 transition-all text-white font-semibold py-6"
               >
                 Отправить заявку
               </Button>
